@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Programación</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Timmana&display=swap" rel="stylesheet">
+        
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label>
+        <nav class="navbar">
+          <a href="#informacion">informacion</a> 
+          <a href="#Experiencia">Experiencia</a> 
+          <a href="#formación">formacion</a> 
+          <a href="#contactos">contactos</a> 
+        </nav>
+    </header>
+    <section class="informacion" id="informacion">
+      <div class="content">
+        <img src="imagenes/foto perfil.jpg" alt="" id="ant"><br>
+        <button type="button" id="boton">proyecto</button>
+        <button type="button" id="boton">volver</button>
+        <h1>Wesley Gonzales <span>CV</span></h1>
+        <h2>Desarrollador Front End</h2>
+        <h3>Informacion Personal</h3>
+        <p class="tituloInfo">Mi correo electrónico es:</p>
+        <p class="infoInfo">Wesley.Gonzales@ejemplo.com</p><br> 
+        <p class="tituloInfo">Mi cumpleaños es:</p>
+        <p class="infoInfo">6/10/1985</p><br>
+        <p class="tituloInfo">Mi Direccion:</p>
+        <p class="infoInfo">6589 Camden Ave</p><br> 
+        <p class="tituloInfo">Mi numero de telefono</p>
+        <p class="infoInfo">(307) 966-8021</p>
+      </div>
+      
+    </section>
+    
+    <section class="Experiencia" id="Experiencia">
+      <h1 class="heading">EXPERIENCIA</h1>
+      <div class="caja-contenedor">
+        
+        <div class="caja">
+          <img src="imagenes/html.jpg" alt="">
+          <h3>HTML</h3>
+          <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos</p>
+          <a href="https://www.w3schools.com/html/" class="btn">VER MAS</a>
+        </div>
+
+        <div class="caja">
+          <img src="imagenes/css.jpg" alt="">
+          <h3>CSS</h3>
+          <p>Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.</p>
+          <a href="https://www.w3schools.com/css/" class="btn">VER MAS</a>
+        </div>
+
+        <div class="caja">
+          <img src="imagenes/javascript.jpg" alt="">
+          <h3>JAVASCRIPT</h3>
+          <p>JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.</p>
+          <a href="https://www.w3schools.com/js/" class="btn">VER MAS</a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="formación" id="formación">
+      <h1 class="heading">FORMACION</h1>
+      <div class="content-caja">
+        
+        <div class="content">
+          <img src="imagenes/proyecto.jpg" alt="">
+          <h3>TICMAS ACADEMY</h3>
+          <p>Ticmas es una experiencia educativa integral, simple
+            y flexible para la era digital. Los módulos de Ticmas ofrecen contenidos y estrategias pedagógicas
+            a la medida de cada institución</p>
+          <a href="https://www.ticmas.com/" class="btn">suma experiencia</a>
+        </div>
+
+        <div class="content">
+          <img src="imagenes/google.jpg" alt="">
+          <h3>GOOGLE</h3>
+          <p>Incursiona en el buscador</p>
+          <a href="https://www.google.com/" class="btn">visita</a>
+        </div>
+
+        <div class="content">
+          <img src="imagenes/youtube.jpg" alt="">
+          <h3>YOUTUBE</h3>
+          <p>En audio y video para profundizar mas</p>
+          <a href="https://www.youtube.com" class="btn">visita</a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="contactos" id="contactos">
+      <div class="image">
+        <img src="imagenes/formulario.jpg" alt="">
+      </div>
+
+      <form action="">
+        <h1 class="heading">CONTACTOS</h1>
+        <div class="imputcaja">
+          <input type="text" required>
+          <label for="">nombre</label>
+        </div>
+
+        <div class="imputcaja">
+          <input type="email" required>
+          <label for="">email</label>
+        </div>
+
+        <div class="imputcaja">
+          <input type="number" required>
+          <label for="">telefono</label>
+        </div>
+
+        <div class="imputcaja">
+          <textarea required name="" id="" cols="30" rows="10"></textarea>
+          <label for="">mensaje</label>
+        </div>
+
+        <input type="submit" class="btn" value="ENVIAR">
+      </form>
+    </section>
+
+    <script src="app.js/index.js"></script>
+    
+</body>
+</html>
